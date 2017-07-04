@@ -7,7 +7,7 @@
 <body>
 <p ><strong><h1>类图：</h1></strong><strong> </strong><br />
   <img src="https://github.com/865713661/MYSRS/blob/master/images/%E5%9B%BE%E7%89%871.png" alt="" width="830" height="412" />&nbsp;<br />
-  时序图： <br />
+ <h1> 时序图：<h1></> <br />
   <img src="https://github.com/865713661/MYSRS/blob/master/images/%E5%9B%BE%E7%89%872.png" alt="" width="830" height="445" />&nbsp;<br />
   <img src="https://github.com/865713661/MYSRS/blob/master/images/%E5%9B%BE%E7%89%873.png" alt="" width="666" height="573" />&nbsp;<br />
   <strong><h1>项目结构：</h1></strong><strong> </strong><br />
@@ -35,7 +35,7 @@
   <img src="https://github.com/865713661/MYSRS/blob/master/images/%E5%9B%BE%E7%89%8720.png" alt="" width="831" height="151" />&nbsp;<br />
   <img src="https://github.com/865713661/MYSRS/blob/master/images/%E5%9B%BE%E7%89%8721.png" alt="" width="830" height="402" />&nbsp;<br />
   <img src="https://github.com/865713661/MYSRS/blob/master/images/%E5%9B%BE%E7%89%8722.png" alt="" width="831" height="226" />&nbsp;</p>
-<p ><h1><strong></h1>其他一些登录，增删改查前端：<h1></strong><strong> </strong><br />
+<p ><strong><h1>其他一些登录，增删改查前端：</h1></strong><strong> </strong><br />
   登录： <br />
   <img src="https://github.com/865713661/MYSRS/blob/master/images/%E5%9B%BE%E7%89%8723.png" alt="" width="830" height="521" />&nbsp;<br />
   删除化学课： <br />
