@@ -1,17 +1,13 @@
-package srs.dao.Impl.mock;
+package SRS.mock;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
-import srs.dao.CourseDao;
-import srs.model.Course;
-import srs.model.Section;
+import SRS.dao.CourseDao;
+import SRS.model.Course;
 
 public class CourseDaoImpl implements CourseDao {
 
-	@Override
-	public HashMap<String,Course> findAll() {
+	public HashMap<String,Course> findAll(){
 		HashMap<String,Course> courses = new HashMap<String, Course>();
 		Course c1,c2,c3,c4,c5;
 		c1 = new Course("CMP101", "Beginning Computer Technology", 3.0);
@@ -31,8 +27,9 @@ public class CourseDaoImpl implements CourseDao {
 		return courses;
 	}
 
+
 	@Override
-	public List<Course> courseByPage(int page, int rows) {
+	public Course getByCourseNo(String CourseNo) {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -44,75 +41,18 @@ public class CourseDaoImpl implements CourseDao {
 	}
 
 	@Override
-	public void updateCourse(Course course, Boolean bool) {
-		// TODO Auto-generated method stub
-		
-	}
-
-
-	@Override
-	public int findCount() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void updatePrecourse(Course course) {
+	public void updateCourse(Course course) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void deleteCourse(String courseNo) {
+	public void deleteCourse(Course course) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
-	public List<Section> allSection(String courseNo, int... intArray) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public int findSectionCount(String courseNo) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void saveSection(Section section, String courseNo) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void deleteSection(String sectionNo) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public Section query(String sectioNo) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public void attend(String sectionNo, String studentSsn, int i) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void drop(String stuNo, String sectionNo) {
-		// TODO Auto-generated method stub
-		
-	}
-
-
-
-
+	
 
 
 }

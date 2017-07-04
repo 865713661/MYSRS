@@ -1,13 +1,16 @@
-package srs.dao.Impl.mock;
+package SRS.mock;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
-import srs.dao.ProfessorDao;
-import srs.model.Professor;
-import srs.model.Section;
+import SRS.dao.PersonDao;
+import SRS.model.Professor;
+import SRS.model.Section;
+import SRS.model.Student;
+import SRS.model.User;
 
-public class ProfessorDaoImpl implements ProfessorDao {
+public class PersonDaoImpl implements PersonDao {
 
 	@Override
 	public HashMap<String, Professor> findAllProfessors() {
@@ -21,32 +24,41 @@ public class ProfessorDaoImpl implements ProfessorDao {
 		professors.put(p2.getSsn(), p2);
 		p3 = new Professor("Snidely Whiplash", "987-65-4321", "Full Professor", "Physical Education");
 		professors.put(p3.getSsn(), p3);	
+	
+		
+		
 		return professors;
 	}
 
 	@Override
-	public Professor selectByLoginnameAndPassword(String loginname, String password) {
+	public HashMap<String, Student> findAllStudents() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	@Override
+	public void addProfessor(String type, Professor professor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Professor> searchProfessor(Professor professor) {
+		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public void saveTeacher(Professor tea) {
+	public void updateProfessor(Professor professor) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void deleteTeacher(String ssn) {
+	public void deleteProfessor(Professor professor) {
 		// TODO Auto-generated method stub
 		
 	}
-
-	@Override
-	public void updateTeacher(Professor tea) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	
 
 }
