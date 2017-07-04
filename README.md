@@ -48,7 +48,7 @@
   添加老师： <br />
   <img src="https://github.com/865713661/MYSRS/blob/master/images/%E5%9B%BE%E7%89%8729.png" alt="" width="830" height="207" />&nbsp;<br />
   <img src="https://github.com/865713661/MYSRS/blob/master/images/%E5%9B%BE%E7%89%8730.png" alt="" width="831" height="433" />&nbsp;<br />
-  <img src="file:///C|/Users/infi/AppData/Roaming/Adobe/Dreamweaver CS6/zh_CN/OfficeImageTemp/wps65DA.tmp.jpghttps://github.com/865713661/MYSRS/blob/master/images/%E5%9B%BE%E7%89%8731.png" alt="" width="830" height="185" />&nbsp;<br />
+  <img src="https://github.com/865713661/MYSRS/blob/master/images/%E5%9B%BE%E7%89%8731.png" alt="" width="830" height="185" />&nbsp;<br />
   老师查看选课学生： <br />
   <img src="https://github.com/865713661/MYSRS/blob/master/images/%E5%9B%BE%E7%89%8732.png" alt="" width="831" height="320" />&nbsp;</p>
 </body>
